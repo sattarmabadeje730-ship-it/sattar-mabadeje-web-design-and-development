@@ -1,14 +1,93 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="refresh" content="0; url=HOME.HTML" />
-  <title>Sattar Mabadeje | Web Designer &amp; Developer</title>
-</head>
-<body>
-  <p>Opening the portfolio… <a href="HOME.HTML">Go to Home</a>.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F4F7FA" />
+    <meta name="description" content="Sattar Mabadeje creates clear, modern websites for small businesses." />
+    <title>Sattar Mabadeje | Web Designer &amp; Developer</title>
+    <link rel="stylesheet" href="HOME.CSS" />
+    <script src="HOME.JS" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="HOME.HTML" aria-label="Sattar Mabadeje home">
+          <span class="brand-mark" aria-hidden="true">SM</span>
+          <span class="brand-copy"><strong>Sattar Mabadeje</strong><small>WEB DESIGN &amp; DEVELOPMENT</small></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="main-navigation">
+          <a href="PROJECT.HTML">Projects</a>
+          <a href="SERVICE.HTML">Services</a>
+          <a href="ABOUT.HTML">About</a>
+          <a class="nav-cta" href="CONTACT.HTML">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero page-shell" id="top">
+        <div class="hero-copy">
+          <p class="hero-kicker"><span class="availability-dot"></span> WEB DESIGNER &amp; DEVELOPER <i>·</i> LAGOS, NIGERIA</p>
+          <h1>Websites for small businesses with <em>big ideas.</em></h1>
+          <p class="hero-description">
+            I turn business ideas into bright, easy-to-use websites that help customers
+            find you, trust you, and take the next step.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="PROJECT.HTML">Explore my projects <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="CONTACT.HTML">Start a conversation <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-points" aria-label="What I focus on">
+            <span><b aria-hidden="true">✳</b> Thoughtful design</span>
+            <span><b aria-hidden="true">✳</b> Mobile-friendly pages</span>
+            <span><b aria-hidden="true">✳</b> Clear next steps</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Previews of recent website projects">
+          <div class="shape shape-sage" aria-hidden="true"></div>
+          <div class="shape shape-coral" aria-hidden="true"></div>
+          <div class="shape shape-blue" aria-hidden="true"></div>
+          <div class="orbit orbit-large" aria-hidden="true"></div>
+          <div class="orbit orbit-small" aria-hidden="true"></div>
+          <figure class="project-preview print-preview">
+            <img src="image/adefloral-print-portfolio.png" alt="ADEFLORAL-PRINT website portfolio page preview" />
+            <figcaption><span class="caption-dot print-dot"></span><span><small>PRINTING &amp; DESIGN</small><strong>ADEFLORAL-PRINT</strong></span></figcaption>
+          </figure>
+          <figure class="project-preview restaurant-preview">
+            <img src="image/sattar-mabs-restaurant-home.png" alt="SATTAR MABS restaurant website homepage preview" />
+            <figcaption><span class="caption-dot restaurant-dot"></span><span><small>FOOD &amp; HOSPITALITY</small><strong>SATTAR MABS</strong></span></figcaption>
+          </figure>
+          <div class="project-count"><strong>02</strong><span>PROJECT<br />PREVIEWS</span></div>
+          <span class="sparkle sparkle-one" aria-hidden="true">✳</span>
+          <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+        </div>
+      </section>
+      <section class="featured-work page-shell" aria-labelledby="featured-title">
+        <div class="featured-heading">
+          <div><p class="eyebrow">A FEW THINGS I’VE MADE</p><h2 id="featured-title">Selected projects<span>.</span></h2></div>
+          <a class="text-link" href="PROJECT.HTML">See all projects <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="featured-grid">
+          <article class="featured-card">
+            <a class="featured-image" href="PROJECT.HTML" aria-label="View ADEFLORAL-PRINT project"><img src="image/printing-portfolio-showcase.png" alt="ADEFLORAL-PRINT website portfolio page screenshot" loading="lazy"><span class="featured-arrow" aria-hidden="true">↗</span></a>
+            <div class="featured-meta"><div><p class="eyebrow">PRINTING &amp; DESIGN</p><h3>ADEFLORAL-PRINT</h3></div><div class="featured-actions"><a href="PROJECT.HTML">Project details</a><a href="https://sattarmabadeje730-ship-it.github.io/ADEFLORAL-PRINTING--WEBSITE/" target="_blank" rel="noopener noreferrer">Live site ↗</a></div></div>
+          </article>
+          <article class="featured-card">
+            <a class="featured-image" href="PROJECT.HTML" aria-label="View SATTAR MABS restaurant project"><img src="image/restaurant-dining-experience.png" alt="SATTAR MABS restaurant website dining experience page screenshot" loading="lazy"><span class="featured-arrow" aria-hidden="true">↗</span></a>
+            <div class="featured-meta"><div><p class="eyebrow">FOOD &amp; HOSPITALITY</p><h3>SATTAR MABS Restaurant</h3></div><div class="featured-actions"><a href="PROJECT.HTML">Project details</a><a href="https://sattar-mabs-restaurant-website.vercel.app/File/Home.html" target="_blank" rel="noopener noreferrer">Live site ↗</a></div></div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="preview-footer page-shell"><span>Independent web design &amp; development</span><span>© 2026 Sattar Mabadeje</span></footer>
+  </body>
 </html>
+
 
 
